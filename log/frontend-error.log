@@ -1,0 +1,617 @@
+2017/08/06 20:33:02 [error] 20148#20148: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/06 20:33:04 [error] 20148#20148: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/06 20:33:04 [error] 20148#20148: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/06 20:33:05 [error] 20148#20148: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/06 20:33:06 [error] 20148#20148: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/06 20:33:07 [error] 20148#20148: *12 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:08:00 [error] 8124#8124: *17 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:08:04 [error] 8124#8124: *17 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:08:05 [error] 8124#8124: *17 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:13:08 [error] 8124#8124: *21 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:13:09 [error] 8124#8124: *21 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:17:12 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:17:12 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:17:12 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:17:13 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:17:13 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:17:13 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:17:13 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:18:01 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:18:01 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:18:01 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:18:01 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:18:02 [error] 8124#8124: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:22:18 [error] 8124#8124: *37 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:22:18 [error] 8124#8124: *37 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:22:19 [error] 8124#8124: *37 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:22:19 [error] 8124#8124: *37 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:22:19 [error] 8124#8124: *37 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:22:19 [error] 8124#8124: *37 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:22:19 [error] 8124#8124: *37 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:22:20 [error] 8124#8124: *37 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /user HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:24:32 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:24:33 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:24:33 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:24:34 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:24:34 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:24:35 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:24:36 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:13 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:14 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:14 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:14 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:14 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:14 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:14 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:15 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:15 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:15 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:15 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:15 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:17 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:17 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:17 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:17 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:48 [error] 8124#8124: *46 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Re" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /index-test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:25:48 [error] 8124#8124: *46 FastCGI sent in stderr: "quest->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /index-test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:27:15 [error] 8124#8124: *71 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:27:16 [error] 8124#8124: *71 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:30:00 [error] 8124#8124: *74 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:30:00 [error] 8124#8124: *74 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:30:00 [error] 8124#8124: *74 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 02:30:15 [error] 8124#8124: *74 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /index.php?r=site%2Flogin HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 03:10:09 [error] 8124#8124: *111 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /userapis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 03:10:10 [error] 8124#8124: *111 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /userapis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 03:10:10 [error] 8124#8124: *111 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /userapis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 03:10:10 [error] 8124#8124: *111 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /userapis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 03:10:11 [error] 8124#8124: *111 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /userapis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
+2017/08/10 03:10:13 [error] 8124#8124: *111 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php:1314
+Stack trace:
+#0 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1296): yii\web\Request->loadCookies()
+#1 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1377): yii\web\Request->getCookies()
+#2 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/web/Request.php(1360): yii\web\Request->loadCsrfToken()
+#3 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/helpers/BaseHtml.php(302): yii\web\Request->getCsrfToken()
+#4 /home/peyo/Project/yii2/yii2-app-advanced/frontend/views/layouts/main.php(22): yii\helpers\BaseHtml::csrfMetaTags()
+#5 /home/peyo/Project/yii2/yii2-app-advanced/vendor/yiisoft/yii2/base/View.php(330): require('/home/peyo/Proj...')
+#6 /home/peyo/Project/yii2/yii2-app-" while reading upstream, client: 127.0.0.1, server: peyo.frontend.com, request: "GET /userapis HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "peyo.frontend.com"
